@@ -1,8 +1,7 @@
 import React from "react";
-import portrait from "./portrait.png";
+import portrait from "../assets/portrait.jpg";
 
 function About() {
-  console.log(portrait);
   return (
     <main className="flex-shrink-0 w-75">
       <div className="container bg-light ms-3 my-5 p-3">
@@ -16,7 +15,7 @@ function About() {
               <img
                 src={portrait}
                 alt="a portrait of myself"
-                className="card-img-top float-start p-3"
+                className="card-img-top float-left px-3"
                 style={{ width: "200px" }}
               />
               My name is Charles Zoeller. I was born in Denver, Colorado, where

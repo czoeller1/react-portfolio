@@ -1,7 +1,48 @@
 import React from "react";
 
 function Contact() {
-  return <h1>Contact</h1>;
+  return (
+    <form className="container bg-light ms-3 my-5 p-3 w-75">
+      <h1>Contact</h1>
+      <div className="mb-3 form-floating">
+        <label htmlFor="exampleInputName" className="form-label">
+          Name
+        </label>
+        <input
+          type="name"
+          className="form-control"
+          id="exampleInputName"
+          aria-describedby="nameHelp"
+          placeholder="John Smith"
+        />
+      </div>
+      <div className="mb-3 form-floating">
+        <label htmlFor="exampleInputEmail" className="form-label">
+          Email
+        </label>
+        <input
+          type="email"
+          className="form-control"
+          id="exampleInputEmail"
+          placeholder="example@email.com"
+        />
+      </div>
+      <div className="mb-3">
+        <label htmlFor="exampleFormControlTextarea1" className="form-label">
+          Message
+        </label>
+        <textarea
+          className="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3"
+          placeholder="Message"
+        ></textarea>
+      </div>
+      <button type="submit" className="btn btn-info" disabled>
+        Submit
+      </button>
+    </form>
+  );
 }
 
 export default Contact;
