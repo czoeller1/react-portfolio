@@ -15,7 +15,7 @@ function About() {
               <img
                 src={portrait}
                 alt="a portrait of myself"
-                className="card-img-top float-left px-3"
+                className="card-img-top float-start px-3"
                 style={{ width: "200px" }}
               />
               My name is Charles Zoeller. I was born in Denver, Colorado, where
