@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# React Protfolio
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+[Live Application](https://czoeller1.github.io/react-portfolio/#/).
+
+A personal website built with react and bootstrap that currently has navigation between the index, which contains a short bio, the contact page, which has a functionless form, and a portfolio, which has cards for six functional sites from the bootcamp. Also contains a footer, which currently has my name and links to my resume, github page, and linkedIn profile.
+
+![Application about page](https://github.com/czoeller1/portfolio-bootstrap/blob/main/about.png)
+
+![Application portfolio page](https://github.com/czoeller1/portfolio-bootstrap/blob/main/portfolio.png)
+
+![Application contact page](https://github.com/czoeller1/portfolio-bootstrap/blob/main/contact.png)
+
 
 ## Available Scripts
 
