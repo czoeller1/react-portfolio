@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5727b55d.chunk.css",
+    "main.js": "/static/js/main.d0ab6bba.chunk.js",
+    "main.js.map": "/static/js/main.d0ab6bba.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.06b5035f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.06b5035f.js.map",
+    "static/js/2.c4351eb9.chunk.js": "/static/js/2.c4351eb9.chunk.js",
+    "static/js/2.c4351eb9.chunk.js.map": "/static/js/2.c4351eb9.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.5727b55d.chunk.css.map": "/static/css/main.5727b55d.chunk.css.map",
+    "static/js/2.c4351eb9.chunk.js.LICENSE.txt": "/static/js/2.c4351eb9.chunk.js.LICENSE.txt",
+    "static/media/Resume.d1ff3a52.pdf": "/static/media/Resume.d1ff3a52.pdf",
+    "static/media/adventureops.c7da8cfe.png": "/static/media/adventureops.c7da8cfe.png",
+    "static/media/herald.2f312147.png": "/static/media/herald.2f312147.png",
+    "static/media/notes.ed574e2e.png": "/static/media/notes.ed574e2e.png",
+    "static/media/planner.6a706c21.png": "/static/media/planner.6a706c21.png",
+    "static/media/portrait.50db2ec3.jpg": "/static/media/portrait.50db2ec3.jpg",
+    "static/media/urban.3a1bc4af.png": "/static/media/urban.3a1bc4af.png",
+    "static/media/weather.10aaa1ca.png": "/static/media/weather.10aaa1ca.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.06b5035f.js",
+    "static/js/2.c4351eb9.chunk.js",
+    "static/css/main.5727b55d.chunk.css",
+    "static/js/main.d0ab6bba.chunk.js"
+  ]
+}
