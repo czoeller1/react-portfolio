@@ -5,27 +5,31 @@ import weather from "../assets/weather.png";
 import planner from "../assets/planner.png";
 import adventureops from "../assets/adventureops.png";
 import notes from "../assets/notes.png";
-import directory from "../assets/directory.png";
+import herald from "../assets/herald.png";
 
 function Portfolio() {
   return (
-    <main class="container bg-light ms-3 my-5 pb-4 w-75">
-      <div class="row">
+    <main className="container bg-light ms-3 my-5 pb-4 w-75">
+      <div className="row text-center">
         <h1>Portfolio</h1>
+        <p>
+          Some projects are hosted on heroku, which can be unstable and slow to
+          start
+        </p>
       </div>
       <div class="row mx-auto my-3">
         <Project
           title="Urban El Dorado"
           image={urban}
-          description="A project that lets users search for a city and recieve a map
-                acompanied by selected US Census data."
+          description="A project that lets users search for a city and receive a map
+                accompanied by selected US Census data."
           site="https://pwg26.github.io/RepositoryForAwesomeProject/"
           repository="https://github.com/pwg26/RepositoryForAwesomeProject"
         />
         <Project
           title="Weather Forecast"
           image={weather}
-          description=" A project that uses the openweather API to display current and
+          description=" A project that uses the OpenWeather API to display current and
           future weather conditions for the searched city."
           site="https://czoeller1.github.io/weather-forecast/"
           repository="https://github.com/czoeller1/weather-forecast"
@@ -35,7 +39,7 @@ function Portfolio() {
         <Project
           title="Day Planner"
           image={planner}
-          description="A project that creates an hourly planner for the currrent day.
+          description="A project that creates an hourly planner for the current day.
           The entries are color coded according to the current time."
           site="https://czoeller1.github.io/day-planner/"
           repository="https://github.com/czoeller1/day-planner"
@@ -63,11 +67,11 @@ function Portfolio() {
           repository="https://github.com/czoeller1/note-taker"
         />
         <Project
-          title="Employee Directory"
-          image={directory}
-          description=" An employee directory application that allows the user to view a list of employees, and filter them by gender or sort them by age. Currently uses randomly generated data"
-          site="https://czoeller1.github.io/employee-directory/"
-          repository="https://github.com/czoeller1/employee-directory"
+          title="Hospitality Herald"
+          image={herald}
+          description={` A hospitality management system that allows users to create rooms, store items, and activities, all of which can be assigned to guests entered into the system. The site uses authentication to protect guest and user information. Demo username: 'charles' password: 'testpwd'`}
+          site="https://hostelhedonism.herokuapp.com/"
+          repository="https://github.com/pwg26/hostel_hedonism"
         />
       </div>
     </main>

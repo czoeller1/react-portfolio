@@ -18,14 +18,13 @@ function About() {
                 className="card-img-top float-start px-3"
                 style={{ width: "200px" }}
               />
-              My name is Charles Zoeller. I was born in Denver, Colorado, where
-              I have lived for most of my life. I love to ski with friends and
-              family whenever I can. My parents first started teaching me how to
-              ski when I was 5 years old. I really enjoy reading science fiction
-              and fantasy novels. My favorite authors are Erin Morgenstern,
-              Maddeline Miller, and Brandon Sanderson. I recently became pretty
-              enterested in cooking and baking. I've made Beef Wellington,
-              Cheesecake, and Soft Pretzels.
+              My name is Charles Zoeller and I'm a born native of Colorado. I
+              have skiied for as long as I can remember, and enjoy hitting the
+              slopes with family and friends. I really enjoy reading science
+              fiction and fantasy novels. My favorite authors are Erin
+              Morgenstern, Maddeline Miller, and Brandon Sanderson. I have also
+              became interested in cooking and baking. I've made Beef
+              Wellington, Cheesecake, and Soft Pretzels.
             </p>
           </div>
         </div>
