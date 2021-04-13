@@ -1,46 +1,123 @@
 import React from "react";
+import { makeStyles } from "@material-ui/core/styles";
+import TextField from "@material-ui/core/TextField";
+import Typography from "@material-ui/core/Typography";
+import Button from "@material-ui/core/Button";
+const axios = require("axios");
+const instance = axios.create({
+  baseURL: "https://api.sendinblue.com/v3/smtp/email",
+  timeout: 1000,
+  headers: {
+    accept: "application/json",
+    "api-key":
+      "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",
+    "content-type": "application/json",
+  },
+});
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    margin: "auto",
+    width: "75%",
+    marginTop: "2%",
+    height: "100%",
+    backgroundColor: "white",
+    "& .MuiTextField-root": {
+      margin: theme.spacing(2),
+      width: "98%",
+    },
+    "& .MuiTypography-root": {
+      margin: theme.spacing(2),
+      paddingTop: "0.5em",
+    },
+    "& .MuiButton-root": {
+      margin: theme.spacing(2),
+    },
+  },
+}));
 
 function Contact() {
+  const classes = useStyles();
+  const [name, setName] = React.useState("");
+  const [email, setEmail] = React.useState("");
+  const [message, setMessage] = React.useState("");
+
+  function sendMail(sender, message) {
+    console.log(sender.name, sender.email, message);
+    instance
+      .post("/", {
+        sender: {
+          name: sender.name,
+          email: sender.email,
+        },
+        to: [
+          {
+            email: "charles.zoeller1@gmail.com",
+            name: "Charles Zoeller",
+          },
+        ],
+        subject: "Website Communication",
+        htmlContent:
+          "<html><head></head><body><h1>This message was sent from my website contact form</h1><br/><p>" +
+          message +
+          "</p></body></html>",
+      })
+      .then((response) => console.log(response))
+      .catch((err) => console.log(err));
+    setName("");
+    setEmail("");
+    setMessage("");
+  }
+
+  const handleNameChange = (event) => {
+    setName(event.target.value);
+  };
+  const handleEmailChange = (event) => {
+    setEmail(event.target.value);
+  };
+  const handleMessageChange = (event) => {
+    setMessage(event.target.value);
+  };
+
   return (
-    <form className="container bg-light ms-3 my-5 p-3 w-75">
-      <h1>Contact</h1>
-      <div className="mb-3 form-floating">
-        <input
-          type="name"
-          className="form-control"
-          id="exampleInputName"
-          aria-describedby="nameHelp"
-          placeholder="John Smith"
+    <form className={classes.root} noValidate autoComplete="off">
+      <Typography variant="h3">Contact</Typography>
+      <div>
+        <TextField
+          id="outlined-multiline-flexible"
+          color="secondary"
+          label="Name"
+          value={name}
+          onChange={handleNameChange}
+          variant="outlined"
         />
-        <label htmlFor="exampleInputName" className="form-label">
-          Name
-        </label>
-      </div>
-      <div className="mb-3 form-floating">
-        <input
-          type="email"
-          className="form-control"
-          id="exampleInputEmail"
-          placeholder="example@email.com"
+        <TextField
+          id="outlined-textarea"
+          color="secondary"
+          label="Email"
+          value={email}
+          onChange={handleEmailChange}
+          variant="outlined"
         />
-        <label htmlFor="exampleInputEmail" className="form-label">
-          Email
-        </label>
+        <TextField
+          id="outlined-multiline-static"
+          color="secondary"
+          label="Message"
+          value={message}
+          onChange={handleMessageChange}
+          multiline
+          rows={6}
+          variant="outlined"
+        />
       </div>
-      <div className="mb-3">
-        <label htmlFor="exampleFormControlTextarea1" className="form-label">
-          Message
-        </label>
-        <textarea
-          className="form-control"
-          id="exampleFormControlTextarea1"
-          rows="3"
-          placeholder="Message"
-        ></textarea>
-      </div>
-      <button type="submit" className="btn btn-info" disabled>
+      <Button
+        color="secondary"
+        size="large"
+        onClick={() => sendMail({ email: email, name: name }, message)}
+        variant="contained"
+      >
         Submit
-      </button>
+      </Button>
     </form>
   );
 }
