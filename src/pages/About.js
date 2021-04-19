@@ -55,9 +55,9 @@ function About() {
                     enjoy hitting the slopes with family and friends. I really
                     enjoy reading science fiction and fantasy novels. My
                     favorite authors are Erin Morgenstern, Maddeline Miller, and
-                    Brandon Sanderson. I have also became interested in cooking
-                    and baking. I've made Beef Wellington, Cheesecake, and Soft
-                    Pretzels.
+                    Brandon Sanderson. I also have a passion for cooking and
+                    baking. My favorite things to make are Biscuits, Cheesecake,
+                    and Soft Pretzels.
                   </Typography>
                 </Grid>
               </Grid>

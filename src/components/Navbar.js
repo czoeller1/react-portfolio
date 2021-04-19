@@ -18,8 +18,16 @@ function Navbar() {
     <>
       <AppBar color="primary" position="sticky">
         <Toolbar>
-          <Box pr="2rem">
-            <Typography variant="h6" style={{ color: "#d0d0d0" }}>
+          <Box
+            component={NavWrapper}
+            style={{ textDecoration: "none" }}
+            to="/"
+            pr="2rem"
+          >
+            <Typography
+              variant="h6"
+              style={{ color: "#d0d0d0", textDecoration: "none" }}
+            >
               Charles Zoeller
             </Typography>
           </Box>

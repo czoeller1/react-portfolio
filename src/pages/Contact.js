@@ -82,6 +82,10 @@ function Contact() {
   return (
     <form className={classes.root} noValidate autoComplete="off">
       <Typography variant="h3">Contact</Typography>
+      <Typography variant="overline">
+        For comments, questions, or recommendations, you can reach me via the
+        form below or by email at: charles.zoeller1@gmail.com{" "}
+      </Typography>
       <div>
         <TextField
           id="outlined-multiline-flexible"
