@@ -7,6 +7,11 @@ import mistborn from "../assets/mistborn.jpg";
 import dune from "../assets/dune.jpg";
 import ender from "../assets/ender.jpg";
 import cheesecake from "../assets/cheesecake.jpg";
+import pretzel from "../assets/pretzel.jpg";
+import toffee from "../assets/toffee.jpg";
+import butterChicken from "../assets/butterChicken.jpg";
+import biscuits from "../assets/biscuits.jpg";
+import honeyChicken from "../assets/honeyChicken.jpg";
 import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 import Card from "../components/Card";
@@ -100,43 +105,43 @@ const recipes = [
     description: `An easy to follow recipe for a creamy cheesecake with a graham cracker crust. Takes about 20 minutes to prepare, and the hardest part is waiting 6 hours for it to cool in the fridge.`,
   },
   {
-    title: "Circe",
-    author: "Madeline Miller",
-    image: circe,
-    link: "https://www.goodreads.com/book/show/35959740-circe",
-    description: `In the house of Helios, god of the sun and mightiest of the Titans, a daughter is born. But Circe is a strange child - not powerful, like her father, nor viciously alluring like her mother. Turning to the world of mortals for companionship, she discovers that she does possess power - the power of witchcraft, which can transform rivals into monsters and menace the gods themselves...`,
+    title: "Lina Kulchinsky's Soft Pretzels",
+    author: "Martha Stuart Living",
+    image: pretzel,
+    link: "https://www.marthastewart.com/1140962/soft-pretzels",
+    description: `A simple recipe for homemade soft pretzels, best eaten fresh out of the oven. If you're feeling fancy, I recommend using truffle salt instead of regular coarse salt.`,
   },
   {
-    title: "The Martian",
-    author: "Andy Weir",
-    image: martian,
-    link: "https://www.goodreads.com/book/show/18007564-the-martian",
-    description: `Six days ago, astronaut Mark Watney became one of the first people to walk on Mars.
-
-    Now, he’s sure he’ll be the first person to die there.
-    
-    After a dust storm nearly kills him and forces his crew to evacuate while thinking him dead, Mark finds himself stranded and completely alone with no way to even signal Earth that he’s alive—and even if he could get word out, his supplies would be gone long before a rescue could arrive...`,
+    title: "Grandma Nash’s Best Butter Almond English Toffee",
+    author: "House of Nash Eats",
+    image: toffee,
+    link: "https://houseofnasheats.com/best-butter-almond-english-toffee/",
+    description: `A delicious almond toffee recipe that only takes about 25 minutes. This recipe does use a candy thermometer, but it's worth the investment.`,
   },
   {
-    title: "Mistborn: The Final Empire",
-    author: "Brandon Sanderson",
-    image: mistborn,
-    link: "https://www.goodreads.com/book/show/68428.Mistborn",
-    description: `For a thousand years the ash fell and no flowers bloomed. For a thousand years the Skaa slaved in misery and lived in fear. For a thousand years the Lord Ruler, the "Sliver of Infinity," reigned with absolute power and ultimate terror, divinely invincible.Then, when hope was so long lost that not even its memory remained, a terribly scarred, heart-broken half-Skaa rediscovered it in the depths of the Lord Ruler's most hellish prison...`,
+    title: "Butter Chicken",
+    author: "Amandeep Sharma",
+    image: butterChicken,
+    link: "https://cooking.nytimes.com/recipes/1016754-butter-chicken",
+    description: `'In its purest form, it is yogurt-and-spice-marinated chicken dressed in a velvety red bath comprising butter, onions, ginger and tomatoes scented with garam masala, cumin and turmeric, with a cinnamon tang.' 
+      
+    Note: you will probably have leftover cinnamon sticks for a while.`,
   },
   {
-    title: "Dune",
-    author: "Frank Herbert",
-    image: dune,
-    link: "https://www.goodreads.com/book/show/44767458-dune",
-    description: `Set on the desert planet Arrakis, Dune is the story of the boy Paul Atreides, heir to a noble family tasked with ruling an inhospitable world where the only thing of value is the “spice” melange, a drug capable of extending life and enhancing consciousness. Coveted across the known universe, melange is a prize worth killing for...`,
+    title: "Easy Homemade Biscuits",
+    author: "Sugar Spun Run",
+    image: biscuits,
+    link:
+      "https://sugarspunrun.com/easy-homemade-biscuits/#wprm-recipe-container-13245",
+    description: `Quick and Easy recipe for buttery biscuits, great for breakfast or as a side.`,
   },
   {
-    title: "Ender's Game",
-    author: "Orson Scott Card",
-    image: ender,
-    link: "https://www.goodreads.com/book/show/375802.Ender_s_Game",
-    description: `Andrew "Ender" Wiggin thinks he is playing computer simulated war games; he is, in fact, engaged in something far more desperate. The result of genetic experimentation, Ender may be the military genius Earth desperately needs in a war against an alien enemy seeking to destroy all human life. The only way to find out is to throw Ender into ever harsher training, to chip away and find the diamond inside, or destroy him utterly. Ender Wiggin is six years old when it begins. He will grow up fast...`,
+    title: "15-Minute Honey Garlic Chicken",
+    author: "Kathryn Doherty",
+    image: honeyChicken,
+    link:
+      "https://www.familyfoodonthetable.com/15-minute-honey-garlic-chicken/",
+    description: `A perfect meal that only takes 15 minutes to complete. Tastes delicious and is easy to clean up.`,
   },
 ];
 
