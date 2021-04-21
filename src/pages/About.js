@@ -6,6 +6,7 @@ import martian from "../assets/martian.jpg";
 import mistborn from "../assets/mistborn.jpg";
 import dune from "../assets/dune.jpg";
 import ender from "../assets/ender.jpg";
+import cheesecake from "../assets/cheesecake.jpg";
 import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 import Card from "../components/Card";
@@ -85,7 +86,56 @@ const books = [
     title: "Ender's Game",
     author: "Orson Scott Card",
     image: ender,
+    link: "https://www.goodreads.com/book/show/375802.Ender_s_Game",
+    description: `Andrew "Ender" Wiggin thinks he is playing computer simulated war games; he is, in fact, engaged in something far more desperate. The result of genetic experimentation, Ender may be the military genius Earth desperately needs in a war against an alien enemy seeking to destroy all human life. The only way to find out is to throw Ender into ever harsher training, to chip away and find the diamond inside, or destroy him utterly. Ender Wiggin is six years old when it begins. He will grow up fast...`,
+  },
+];
+
+const recipes = [
+  {
+    title: "The Best Cheesecake Recipe",
+    author: "Sugar Spun Run",
+    image: cheesecake,
+    link: "https://sugarspunrun.com/best-cheesecake-recipe/",
+    description: `An easy to follow recipe for a creamy cheesecake with a graham cracker crust. Takes about 20 minutes to prepare, and the hardest part is waiting 6 hours for it to cool in the fridge.`,
+  },
+  {
+    title: "Circe",
+    author: "Madeline Miller",
+    image: circe,
     link: "https://www.goodreads.com/book/show/35959740-circe",
+    description: `In the house of Helios, god of the sun and mightiest of the Titans, a daughter is born. But Circe is a strange child - not powerful, like her father, nor viciously alluring like her mother. Turning to the world of mortals for companionship, she discovers that she does possess power - the power of witchcraft, which can transform rivals into monsters and menace the gods themselves...`,
+  },
+  {
+    title: "The Martian",
+    author: "Andy Weir",
+    image: martian,
+    link: "https://www.goodreads.com/book/show/18007564-the-martian",
+    description: `Six days ago, astronaut Mark Watney became one of the first people to walk on Mars.
+
+    Now, he’s sure he’ll be the first person to die there.
+    
+    After a dust storm nearly kills him and forces his crew to evacuate while thinking him dead, Mark finds himself stranded and completely alone with no way to even signal Earth that he’s alive—and even if he could get word out, his supplies would be gone long before a rescue could arrive...`,
+  },
+  {
+    title: "Mistborn: The Final Empire",
+    author: "Brandon Sanderson",
+    image: mistborn,
+    link: "https://www.goodreads.com/book/show/68428.Mistborn",
+    description: `For a thousand years the ash fell and no flowers bloomed. For a thousand years the Skaa slaved in misery and lived in fear. For a thousand years the Lord Ruler, the "Sliver of Infinity," reigned with absolute power and ultimate terror, divinely invincible.Then, when hope was so long lost that not even its memory remained, a terribly scarred, heart-broken half-Skaa rediscovered it in the depths of the Lord Ruler's most hellish prison...`,
+  },
+  {
+    title: "Dune",
+    author: "Frank Herbert",
+    image: dune,
+    link: "https://www.goodreads.com/book/show/44767458-dune",
+    description: `Set on the desert planet Arrakis, Dune is the story of the boy Paul Atreides, heir to a noble family tasked with ruling an inhospitable world where the only thing of value is the “spice” melange, a drug capable of extending life and enhancing consciousness. Coveted across the known universe, melange is a prize worth killing for...`,
+  },
+  {
+    title: "Ender's Game",
+    author: "Orson Scott Card",
+    image: ender,
+    link: "https://www.goodreads.com/book/show/375802.Ender_s_Game",
     description: `Andrew "Ender" Wiggin thinks he is playing computer simulated war games; he is, in fact, engaged in something far more desperate. The result of genetic experimentation, Ender may be the military genius Earth desperately needs in a war against an alien enemy seeking to destroy all human life. The only way to find out is to throw Ender into ever harsher training, to chip away and find the diamond inside, or destroy him utterly. Ender Wiggin is six years old when it begins. He will grow up fast...`,
   },
 ];
@@ -180,20 +230,30 @@ function About() {
               </Tabs>
             </AppBar>
             <TabPanel style={{ width: "100%" }} value={value} index={0}>
-              <Card classes={classes} book={books[0]} />
+              <Card classes={classes} type="book" info={books[0]} />
               <hr />
-              <Card classes={classes} book={books[1]} />
+              <Card classes={classes} type="book" info={books[1]} />
               <hr />
-              <Card classes={classes} book={books[2]} />
+              <Card classes={classes} type="book" info={books[2]} />
               <hr />
-              <Card classes={classes} book={books[3]} />
+              <Card classes={classes} type="book" info={books[3]} />
               <hr />
-              <Card classes={classes} book={books[4]} />
+              <Card classes={classes} type="book" info={books[4]} />
               <hr />
-              <Card classes={classes} book={books[5]} />
+              <Card classes={classes} type="book" info={books[5]} />
             </TabPanel>
             <TabPanel value={value} index={1}>
-              Favorite Recipes
+              <Card classes={classes} type="recipe" info={recipes[0]} />
+              <hr />
+              <Card classes={classes} type="recipe" info={recipes[1]} />
+              <hr />
+              <Card classes={classes} type="recipe" info={recipes[2]} />
+              <hr />
+              <Card classes={classes} type="recipe" info={recipes[3]} />
+              <hr />
+              <Card classes={classes} type="recipe" info={recipes[4]} />
+              <hr />
+              <Card classes={classes} type="recipe" info={recipes[5]} />
             </TabPanel>
           </Grid>
         </Paper>
