@@ -195,14 +195,21 @@ function About() {
               <Grid item xs container direction="column" spacing={2}>
                 <Grid item xs>
                   <Typography gutterBottom variant="subtitle1">
-                    My name is Charles Zoeller and I'm a born native of
-                    Colorado. I have skied for as long as I can remember, and
-                    enjoy hitting the slopes with family and friends. I really
-                    enjoy reading science fiction and fantasy novels. My
-                    favorite authors are Erin Morgenstern, Madeline Miller, and
-                    Brandon Sanderson. I also have a passion for cooking and
-                    baking. My favorite things to make are Biscuits, Cheesecake,
-                    and Soft Pretzels.
+                    My name is Charles Zoeller and I'm a software developer from
+                    Denver, Colorado. I first learned how to code when I was 16,
+                    and have loved it ever since. My favorite things to code are
+                    tangible products that I can watch come together to form a
+                    polished product. Outside of programming, I mostly spend my
+                    time at home, with the exception of skiing. I have skied for
+                    as long as I can remember, and enjoy hitting the slopes with
+                    family and friends. At home, I love playing multiplayer
+                    video games with friends, or strategy games by my self, and
+                    talking about game design with anyone who will listen. I
+                    also really enjoy reading science fiction and fantasy novels
+                    and have a passion for cooking and baking. I've included
+                    some of my favorite books and recipes below, but feel free
+                    to contact me if you want someone to talk about other
+                    recommendations for way too long.
                   </Typography>
                 </Grid>
               </Grid>
@@ -213,6 +220,10 @@ function About() {
           className={classes.paper}
           style={{ width: "60%", margin: "auto", marginTop: "1rem" }}
         >
+          <Typography variant="h3" gutterBottom>
+            Recommendations
+          </Typography>
+          <hr />
           <Grid
             container
             spacing={2}
