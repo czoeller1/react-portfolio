@@ -124,8 +124,7 @@ const recipes = [
     image: butterChicken,
     link: "https://cooking.nytimes.com/recipes/1016754-butter-chicken",
     description: `'In its purest form, it is yogurt-and-spice-marinated chicken dressed in a velvety red bath comprising butter, onions, ginger and tomatoes scented with garam masala, cumin and turmeric, with a cinnamon tang.' 
-      
-    Note: you will probably have leftover cinnamon sticks for a while.`,
+       Note: you will probably have leftover cinnamon sticks for a while.`,
   },
   {
     title: "Easy Homemade Biscuits",
