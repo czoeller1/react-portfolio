@@ -199,18 +199,26 @@ function About() {
                     Denver, Colorado. I first learned how to code when I was 16,
                     and have loved it ever since. I enjoy creating practical
                     code that I can watch come together to form a polished
-                    product. Outside of programming, I am passionate about
-                    skiing and camping. I have skied for as long as I can
-                    remember, and enjoy hitting the slopes with family and
-                    friends. I've gone on many camping trips, either in Boy
-                    Scouts or with family friends, all over Colorado. Otherwise,
-                    I have fun playing multiplayer video games with friends, or
-                    strategy games by my self, and talking about game design
-                    with anyone who will listen. I also appreciate science
-                    fiction and fantasy novels, and have a passion for cooking
-                    and baking. I've included some of my favorite books and
-                    recipes below, but feel free to contact me for additional
-                    recommendations or personal information.
+                    product. In a way though, I've been interested in coding for
+                    as long as I can remember. To me, coding is the process of
+                    taking small, predefined units and combining them together
+                    in a specific way to form something else entirely, just like
+                    my favorite childhood toy, LEGOs.
+                    <br />
+                    <br />
+                    Outside of programming, I am passionate about skiing and
+                    camping. I have skied for as long as I can remember, and
+                    enjoy hitting the slopes with family and friends. I've gone
+                    on many camping trips, either with the Boy Scouts or with
+                    family friends, all over Colorado.The best part of camping
+                    is living in and exploring different environments and
+                    landscapes. Otherwise, I have fun playing multiplayer video
+                    games with friends, or strategy games by myself, and talking
+                    about game design with anyone who will listen. I also
+                    appreciate science fiction and fantasy novels, and have a
+                    passion for cooking and baking. I've included some of my
+                    favorite books and recipes below, but feel free to contact
+                    me for additional recommendations or personal information.
                   </Typography>
                 </Grid>
               </Grid>
