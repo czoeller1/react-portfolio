@@ -197,19 +197,20 @@ function About() {
                   <Typography gutterBottom variant="subtitle1">
                     My name is Charles Zoeller and I'm a software developer from
                     Denver, Colorado. I first learned how to code when I was 16,
-                    and have loved it ever since. My favorite things to code are
-                    tangible products that I can watch come together to form a
-                    polished product. Outside of programming, I mostly spend my
-                    time at home, with the exception of skiing. I have skied for
-                    as long as I can remember, and enjoy hitting the slopes with
-                    family and friends. At home, I love playing multiplayer
-                    video games with friends, or strategy games by my self, and
-                    talking about game design with anyone who will listen. I
-                    also really enjoy reading science fiction and fantasy novels
-                    and have a passion for cooking and baking. I've included
-                    some of my favorite books and recipes below, but feel free
-                    to contact me if you want someone to talk about other
-                    recommendations for way too long.
+                    and have loved it ever since. I enjoy creating practical
+                    code that I can watch come together to form a polished
+                    product. Outside of programming, I am passionate about
+                    skiing and camping. I have skied for as long as I can
+                    remember, and enjoy hitting the slopes with family and
+                    friends. I've gone on many camping trips, either in Boy
+                    Scouts or with family friends, all over Colorado. Otherwise,
+                    I have fun playing multiplayer video games with friends, or
+                    strategy games by my self, and talking about game design
+                    with anyone who will listen. I also appreciate science
+                    fiction and fantasy novels, and have a passion for cooking
+                    and baking. I've included some of my favorite books and
+                    recipes below, but feel free to contact me for additional
+                    recommendations or personal information.
                   </Typography>
                 </Grid>
               </Grid>
