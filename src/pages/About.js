@@ -203,7 +203,10 @@ function About() {
                     as long as I can remember. To me, coding is the process of
                     taking small, predefined units and combining them together
                     in a specific way to form something else entirely, just like
-                    my favorite childhood toy, LEGOs.
+                    my favorite childhood toy, LEGOs. And while learning about
+                    the fundamental principles that those pieces are designed
+                    around is interesting, my passion has always been for how
+                    they interact together.
                     <br />
                     <br />
                     Outside of programming, I am passionate about skiing and
