@@ -1,5 +1,6 @@
 import React from "react";
 import portrait from "../assets/portrait.jpg";
+import pic from "../assets/new-portrait.jpg";
 import circus from "../assets/circus.jpg";
 import circe from "../assets/circe.jpg";
 import martian from "../assets/martian.jpg";
@@ -189,7 +190,7 @@ function About() {
           <hr />
           <Grid container spacing={2}>
             <Grid item className={classes.image}>
-              <img className={classes.img} alt="me" src={portrait} />
+              <img className={classes.img} alt="me" src={pic} />
             </Grid>
             <Grid item xs={12} sm container>
               <Grid item xs container direction="column" spacing={2}>
