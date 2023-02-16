@@ -1,5 +1,5 @@
 const ghpages = require("gh-pages");
 
-ghpages.publish("build", { branch: "master", remote: "website" }, (err) =>
+ghpages.publish("build", { branch: "main", remote: "website" }, (err) =>
   console.log(err)
 );
