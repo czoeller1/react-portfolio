@@ -72,7 +72,7 @@ function Portfolio() {
           user photo integration, and the ability for users to add
           locations or activities. Users can also see a page with all of
           their posts that allows them to delete their posts."
-            site="https://adventureops.herokuapp.com/login"
+            site="https://furry-enchanting-newsboy.glitch.me"
             repository="https://github.com/Perkyderm/Adventureops"
           />
           <Project
@@ -80,8 +80,8 @@ function Portfolio() {
             title="Hospitality Herald"
             image={herald}
             description={` A hospitality management system that allows users to create rooms, store items, and activities, all of which can be assigned to guests entered into the system. The site uses authentication to protect guest and user information.`}
-            details={`Demo username: 'charles' password: 'testpwd'`}
-            site="https://hostelhedonism.herokuapp.com/"
+            details={`Demo currently unavailable`}
+            site="https://github.com/pwg26/hostel_hedonism"
             repository="https://github.com/pwg26/hostel_hedonism"
           />
         </Grid>
@@ -111,7 +111,7 @@ function Portfolio() {
             title="Note Taker"
             image={notes}
             description="A page that allows the user to create, save, and view custom notes with a title and text. The notes are stored in the server's backend and persist between sessions. Notes can be deleted through the interface."
-            site="https://frozen-hollows-50239.herokuapp.com/"
+            site="https://glittery-vagabond-squirrel.glitch.me"
             repository="https://github.com/czoeller1/note-taker"
           />
           <Project
